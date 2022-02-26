@@ -461,7 +461,7 @@ border-radius: 50%;
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .body{
     overflow-x: hidden;
     background-color: #000000;
@@ -475,6 +475,9 @@ border-radius: 50%;
   .container form .form-row{
     display: block;
   }
+  .socials{
+    visibility: hidden;
+  }
   form .form-row .input-data{
     margin: 35px 0!important;
   }
@@ -482,10 +485,10 @@ border-radius: 50%;
     width: 40%!important;
   }
   .services-section{
-    padding-top: 40rem;
+    padding-top: 50rem;
   }
   .skills{
-    padding-top: 38rem;
+    padding-top: 0;
   }
   .about{
     padding-top: 0 !important;
@@ -495,11 +498,11 @@ border-radius: 50%;
   }
   
 
-  .services-section{  margin-top: 30rem;
+  .services-section{  margin-top: none;
   }
 
 }
-@media (max-width:380px){
+@media (max-width:480px){
 body{
   overflow-x: hidden;
 }
@@ -508,19 +511,12 @@ body{
 }
 .socials{
   visibility: hidden;
-}
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2.625) {
-  body{
-    overflow-x: hidden;
-  }
-  .skills{
-    padding-top: 50rem;
-  }
-  .socials{
-    visibility: hidden;
-  }
-} 
+}}
+
+
+
+
+
 
   @keyframes blink {
     from, to {

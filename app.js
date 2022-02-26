@@ -10,4 +10,3 @@ form.addEventListener('submit', e => {
     alert("Form Submitted Successfully")
 })
 
-window.devicePixelRatio
