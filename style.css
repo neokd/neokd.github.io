@@ -510,6 +510,17 @@ body{
   visibility: hidden;
 }
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 2.625) {
+  body{
+    overflow-x: hidden;
+  }
+  .skills{
+    padding-top: 50rem;
+  }
+  .socials{
+    visibility: hidden;
+  }
+} 
 
   @keyframes blink {
     from, to {
